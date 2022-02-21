@@ -23,14 +23,6 @@ function onSearch() {
     .catch(error => console.log(error));
 }
 
-// function onFetchError() {
-//   alert('we have problems');
-// }
-// function onFetchDone() {
-//   alert('THEN IS DONE!');
-// }
-//uganda
-
 function renderCountryList(name) {
   let markup = '';
   if (name.length > 10) {
