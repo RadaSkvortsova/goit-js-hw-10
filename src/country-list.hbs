@@ -1,0 +1,9 @@
+{{#each this}}
+<li class='country-name-list'>
+    <img class='country-flag' src='{{flags.svg}}' alt='flag country' height='20' width='30' />
+    {{name.official}}
+</li>
+<li class='country-item'><span class="country-item-key">Capital: </span><span>{{capital}}</span></li>
+<li class='country-item'><span class="country-item-key">Population: </span><span>{{population}}</span></li>
+<li class='country-item'><span class="country-item-key">Languages: </span>{{#each languages}}<span>{{this}} </span>{{/each}}</li>
+{{/each}}
